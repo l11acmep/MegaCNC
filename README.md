@@ -1,7 +1,12 @@
 # MegaCNC
 Arduino Mega based CNC controller
-CNC
-Soft
+Windows independed CNC soft
+
+DISCLAIMER
+THE AUTHOR OF THIS SOFTWARE ACCEPT ABSOLUTELY NO LIABILITY FOR ANY HARM OR LOSS RESULTING FROM ITS USE.
+IT IS EXTREMELY UNWISE TO RELY ON SOFTWARE ALONE FOR SAFETY.
+Any machinery capable of harming persons must have provisions for completely removing power from all motors, etc, before persons enter any danger area.
+All machinery must be designed to comply with local and national safety codes, and the authors of this software can not, and do not, take any responsibility for such compliance.
 
 Основная идея проекта это переход от компьютера, управляющего станком с ЧПУ к управлению от контроллера Ардуино Мега.
 Изначально даже подумывал об Ардуино Нано! Но вовремя остановился. :)
@@ -9,19 +14,6 @@ Soft
 
 Исходные данные:
 1. Ардуино Мега:
-    -Микроконтроллер	ATmega2560
-    -Рабочее напряжение	5В
-    -Входное напряжение (рекомендуемое)	7-12В
-    -Входное напряжение (предельное)	6-20В
-    -Цифровые Входы/Выходы	54  (14 из которых могут работат также как выходы ШИМ)
-    -Аналоговые входы	16
-    -Постоянный ток через вход/выход   	40 mA
-    -Постоянный ток для вывода 3.3 В	50 mA
-    -Флеш-память	256 KB  (из которых 8 КB используются для загрузчика)
-    -ОЗУ	8 KB
-    -Энергонезависимая память	4 KB
-    -Тактовая частота	16 MHz
-
 2. LCD shield (16x2) c 4-мя кнопками
 3. Дайвер моторов TB-3
 4. Станок с ЧПУ
